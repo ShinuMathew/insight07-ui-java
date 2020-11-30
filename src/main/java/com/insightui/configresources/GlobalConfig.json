@@ -1,0 +1,31 @@
+{
+	"db_configs": {
+		"insight_dbms": {
+			"dbms": "MYSQL",
+			"jdbc_driver": "com.mysql.jdbc.driver",
+			"insight_db": "mylearning",
+			"mysql_user": "root",
+			"mysql_pswd": "shinz9474",
+			"mysql_con": "jdbc:mysql://localhost:3306/mylearning"
+		},
+		"execution_engine_dbms": {
+			"dbms": "POSTGRESQL",
+			"jdbc_driver": "org.postgresql.Driver",
+			"insight_db": "insight_demo",
+			"postgresql_user": "Insight_Admin",
+			"postgresql_pswd": "shinz9474",
+			"postgresql_con": "jdbc:postgresql://127.0.0.1:5432/insight_demo"
+		}
+	},
+	"selenium_drivers": {
+		"mac_os": {
+			"chromedriver": "/Libs/Drivers/Chrome",
+			"safari": ""
+		},
+		"windows_os": {
+			"chromedriver": "C:\\Automation\\WebDrivers\\chromedriver.exe",
+			"iedriver": "C:\\Automation\\WebDrivers\\IEDriverServer.exe",
+			"geckoriver": "C:\\Automation\\WebDrivers\\geckodriver.exe"
+		}
+	}
+}

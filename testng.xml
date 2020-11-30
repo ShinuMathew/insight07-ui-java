@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="ExecuteTest">
+	<!-- packagetest
+	ROM_QA_Demo_Smoke_CODTest 
+	ROM_QA_Demo_Smoke_PPCOGuest
+	ROM_QA_Demo_Smoke_AdyenCCGuest
+	packagetest-->
+	<parameter name="tc_runID" value="ROM_QA_Demo_Smoke_AdyenCCGuest"/> 
+		<classes>
+			<class name="com.insightui.testcases.TestCaseEngine" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
